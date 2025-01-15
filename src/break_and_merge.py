@@ -30,21 +30,25 @@ class BreakdownProcessor:
         bd_raw = []
         
         for bd_id, generation in enumerate(generation_list):
-            breakdown_prompt = self.breakdown_prompt.format(text_generation=generation)
-            if gen_id < len(cached_results['breakdown']) and bd_id < len(cached_results['breakdown'][gen_id]):
-                breakdown_raw_result = cached_results['breakdown'][gen_id][bd_id]
-                if generation not in breakdown_prompt:
-                    with open(f'{self.args.folder_name}/breakdown_mismatch.txt', 'a') as f:
-                        f.write(f'Prompt mismatch for {gen_id}th generation, {bd_id}th breakdown, {breakdown_raw_result["prompt"]} \n\n {breakdown_prompt}\n\n')
+            if generation:  # no empty generation accepted
+                breakdown_prompt = self.breakdown_prompt.format(text_generation=generation)
+                if gen_id < len(cached_results['breakdown']) and bd_id < len(cached_results['breakdown'][gen_id]):
+                    breakdown_raw_result = cached_results['breakdown'][gen_id][bd_id]
+                    if generation not in breakdown_prompt:
+                        with open(f'{self.args.folder_name}/breakdown_mismatch.txt', 'a') as f:
+                            f.write(f'Prompt mismatch for {gen_id}th generation, {bd_id}th breakdown, {breakdown_raw_result["prompt"]} \n\n {breakdown_prompt}\n\n')
+                else:
+                    breakdown_raw_result = self.llm_model.generate_given_prompt(breakdown_prompt)
+                    breakdown_raw_result = {'return': breakdown_raw_result, 'prompt': breakdown_prompt}
+                print("Break down raw result:", breakdown_raw_result)
+                breakdown_dicts = self.get_subclaims(breakdown_raw_result['return'])
+                breakdown_dicts = self._clean_breakdown_dicts(breakdown_dicts)
+                breakdown_dicts_list.append(breakdown_dicts)
+                bd_raw.append(breakdown_raw_result)
             else:
-                breakdown_raw_result = self.llm_model.generate_given_prompt(breakdown_prompt)
-                breakdown_raw_result = {'return': breakdown_raw_result, 'prompt': breakdown_prompt}
-
-            # print("Break down raw result:", breakdown_raw_result)
-            breakdown_dicts = self.get_subclaims(breakdown_raw_result['return'])
-            breakdown_dicts = self._clean_breakdown_dicts(breakdown_dicts)
-            breakdown_dicts_list.append(breakdown_dicts)
-            bd_raw.append(breakdown_raw_result)
+                print("[WARNING] Empty generation")
+                breakdown_dicts_list.append([])
+                bd_raw.append({'return': '', 'prompt': ''})
 
         self._update_cached_breakdown_results(gen_id, bd_raw, cached_results)
         return breakdown_dicts_list
@@ -65,37 +69,67 @@ class BreakdownProcessor:
 
     def get_subclaims(self, completion):
         output = self._extract_output_from_completion(completion)
+
+        # First attempt: try parsing as-is (maybe it's a valid JSON array or object)
         try:
-            return [json.loads(line) for line in output.splitlines()]
+            parsed = json.loads(output)
+            # If it's a single object, wrap it in a list so we return a consistent array
+            return parsed if isinstance(parsed, list) else [parsed]
         except json.JSONDecodeError:
+            pass  # Will try the "wrap in array" logic below
+
+        # Second attempt: wrap in array if it looks like multiple JSON objects
+        # e.g., {...},\n{...},\n{...}
+        # 1) Strip trailing commas/newlines
+        trimmed_output = output.strip().rstrip(',')
+        # 2) Wrap in brackets
+        wrapped_output = f"[{trimmed_output}]"
+        try:
+            return json.loads(wrapped_output)
+        except json.JSONDecodeError:
+            # If still not parseable, fallback
+            print("Encountered JSON decode error; falling back to parse line-by-line.")
             return self._parse_json_lines(output)
 
     def _extract_output_from_completion(self, completion):
+        """Extract raw text output from the completion response."""
         if 'generation' in completion:
             output = completion['generation']
         else:
             output = completion['choices'][0]["message"]["content"]
-        
-        output = output.replace("```jsonl\n", "").replace("```json\n", "").replace("```", "")
-        output = output.replace('claim:', '"claim":').replace('gpt-confidence:', '"gpt-confidence":')
-        if output.find('{') != -1 and output.rfind('}') != -1:
-            output = output[output.find('{'):output.rfind('}') + 1]
-        
+
+        # Remove code fences
+        output = (output
+                .replace("```jsonl\n", "")
+                .replace("```json\n", "")
+                .replace("```", ""))
+
+        # Replace keys if they’re missing quotes
+        output = (output
+                .replace('claim:', '"claim":')
+                .replace('gpt-confidence:', '"gpt-confidence":'))
+
+        # Attempt to isolate just the JSON part between the first '{' and the last '}'
+        start = output.find('{')
+        end = output.rfind('}')
+        if start != -1 and end != -1:
+            output = output[start:end + 1]
+
         return output
 
-    def _parse_json_lines(self, jsonl_string):
-        subclaims = []
-        for line in jsonl_string.split("\n"):
-            if not line.strip():
+
+    def _parse_json_lines(self, output):
+        """Fallback function: parse line-by-line if everything else fails."""
+        results = []
+        for line in output.splitlines():
+            line = line.strip()
+            if not line:
                 continue
             try:
-                subclaim = json.loads(line)
-                subclaims.append(subclaim)
-            except json.JSONDecodeError as e:
-                print(f"Failed to parse as jsonl: {e}")
-                print(line)
-                return None
-        return subclaims
+                results.append(json.loads(line))
+            except json.JSONDecodeError:
+                print(f"Skipping line due to JSON error: {line}")
+        return results
 
 class MatchProcessor:
     def __init__(self, args, llm_model):
@@ -116,11 +150,11 @@ class MatchProcessor:
                 # self._log_empty_breakdown(data, j)
                 print(f'Empty breakdown for {gen_id}th generation, {j}th breakdown')
                 continue
-
+            
             lst_tb_merged = convert_to_claim_list(dicts_list)
             point_list = convert_to_claim_list(total_dicts_list)
             
-            # print(gen_id, j, len(cached_results['match']))
+            print(gen_id, j, len(cached_results['match']))
             match_prompt = self.match_prompt.format(
                     new_claim_list=self.invert_fact_list(lst_tb_merged),
                     original_claim_list=self.invert_fact_list(point_list)

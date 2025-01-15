@@ -128,7 +128,7 @@ class Llama3Model(BaseModel):
             do_sample=True, temperature=0.0001, pad_token_id=self.tokenizer.eos_token_id
         )
         generation = self.tokenizer.decode(outputs[0][input_ids.shape[-1]:], skip_special_tokens=True).strip()
-        generation = self.post_process_bio(generation, prompt)
+        # generation = self.post_process_bio(generation, prompt)
 
         return {'generation': generation, 'prompt': prompt}
 
@@ -149,7 +149,7 @@ class Llama3Model(BaseModel):
             pad_token_id=self.tokenizer.eos_token_id
         )
         generations = [self.tokenizer.decode(decoded[input_ids.shape[-1]:], skip_special_tokens=True).strip() for decoded in outputs]
-        generations = [self.post_process_bio(gen, prompt) for gen in generations]
+        # generations = [self.post_process_bio(gen, prompt) for gen in generations]
         return {'generation': generations, 'prompt': prompt}
 
 def get_model(model_name, args):

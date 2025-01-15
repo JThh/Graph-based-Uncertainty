@@ -53,8 +53,11 @@ class EdgeConstruction():
 
                 # Clean and validate the response
                 response = ''.join([char for char in response if char.isalpha()]).lower()
-                response = 'no' if 'notsupported' in response else response
-                if response not in ['yes', 'no']:
+                if 'notsupported' in response or 'no' in response:
+                    response = 'no'
+                elif 'supported' in response or 'yes' in response:
+                    response = 'yes'
+                else:
                     print(f'Invalid response: {response}, gen_index: {gen_index}, claim_index: {claim_index}')
                 current_match_list.append(float(response == 'yes'))
                 current_raw_match_results.append(match_raw_result)
@@ -120,10 +123,10 @@ class EdgeConstruction():
         prompt = f"""Context: {generation}
             Claim: {claim}
             Is the claim supported by the context above?
-            Answer Yes or No:
+            Answer Supported or Not Supported:
             """
 
-        model_response = self.llm_model.generate_given_prompt([{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': prompt}])
+        model_response = self.llm_model.generate_given_prompt(prompt)
         model_response = model_response['generation']
 
         return {'return': model_response, 'prompt': prompt}
