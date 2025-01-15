@@ -9,11 +9,34 @@ import os
 import argparse
 import re
 
+from huggingface_hub import snapshot_download 
+
+LLAMA3_70B_PATH = ""
+
 def load_huggingface_model_and_tokenizer(model_id, cache_dir):
     print_cuda_memory()
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id, 
+        device_map='auto', 
+        torch_dtype=torch.bfloat16,
+        attn_implementation="flash_attention_2", 
+        cache_dir=cache_dir
+    )
+    # path = snapshot_download(
+    #     repo_id=model_id,
+    #     allow_patterns=['*.json', '*.model', '*.safetensors'],
+    #     ignore_patterns=['pytorch_model.bin.index.json'],
+    # )
+    # config = AutoConfig.from_pretrained(model_id)
+    # with accelerate.init_empty_weights():
+    #     model = AutoModelForCausalLM.from_config(config, torch_dtype=torch.bfloat16,
+    #                                              attn_implementation="flash_attention_2", cache_dir=cache_dir)
+    # model.tie_weights()
+
+    # model = accelerate.load_checkpoint_and_dispatch(
+    #     model, path, device_map="auto",
+    #     dtype='bfloat16', skip_keys='past_key_values')
     tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2", device_map="auto", cache_dir=cache_dir)
-    
     print_cuda_memory()
     return model, tokenizer
 
@@ -21,9 +44,18 @@ def load_llama3_70b_model_and_tokenizer():
     cache_path = os.environ.get("HF_DATASETS_CACHE", '')
     return load_huggingface_model_and_tokenizer("meta-llama/Meta-Llama-3-70B-Instruct", cache_dir=cache_path)
 
+def load_llama31_70b_model_and_tokenizer():
+    cache_path = os.environ.get("HF_DATASETS_CACHE", '')
+    return load_huggingface_model_and_tokenizer("meta-llama/Llama-3.1-70B-Instruct", cache_dir=cache_path)
+
+def load_llama31_8b_model_and_tokenizer():
+    cache_path = os.environ.get("HF_DATASETS_CACHE", '')
+    return load_huggingface_model_and_tokenizer("meta-llama/Llama-3.1-8B-Instruct", cache_dir=cache_path)
+
 def substitute_prompt_factscore(example, dataset):
     entity = example['entity']
-    example['prompt'] = f'Tell me a paragraph bio of {entity}.\n'
+    example['prompt'] = f'Who is {entity}?\n Provide as many specific details and examples as possible (such as names of \
+people, numbers, events, locations, dates, times, etc.).'
     example['question'] = entity
     return example
 

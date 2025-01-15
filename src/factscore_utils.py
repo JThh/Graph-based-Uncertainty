@@ -22,11 +22,11 @@ import wikipedia
 
 import numpy as np
 from tqdm import tqdm
+
 from src.models import OpenAIModel
-from tqdm import tqdm
 from src.utils import remove_non_alphanumeric
 
-FACTSCORE_CACHE_PATH = ''
+FACTSCORE_CACHE_PATH = '../FActScore/.cache'
 SPECIAL_SEPARATOR = "####SPECIAL####SEPARATOR####"
 MAX_LENGTH = 256
 
@@ -38,14 +38,14 @@ class DocDB(object):
 
     def __init__(self, db_path=None, data_path=None):
         self.db_path = db_path
-        self.connection = sqlite3.connect('/nlp/scr/jiangm/factscore/enwiki-20230401.db', check_same_thread=False)
+        self.connection = sqlite3.connect('../FActScore/.cache/enwiki-20230401.db', check_same_thread=False)
 
         cursor = self.connection.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
         if len(cursor.fetchall()) == 0:
             assert data_path is not None, f"{self.db_path} is empty. Specify `data_path` in order to create a DB."
             print(f"{self.db_path} is empty. start building DB from {data_path}...")
-            # self.build_db(self.db_path, data_path)
+            self.build_db(self.db_path, data_path)
 
     def __enter__(self):
         return self
@@ -249,7 +249,7 @@ class FactScorer(object):
         self.cache_dir = cache_dir
         if not os.path.exists(cache_dir):
             os.makedirs(cache_dir)
-        self.eval_model = OpenAIModel("gpt-4-1106-preview", None)
+        self.eval_model = OpenAIModel("gpt-4o", None)
 
     def save_cache(self):
         for k, v in self.retrieval.items():
@@ -273,14 +273,15 @@ class FactScorer(object):
         self,
         topics: List[str],
         atomic_facts: List[List[Tuple[str, str]]],
-        model_name: str = 'claude-2.0',
+        # model_name: str = 'claude-2.0',
         knowledge_source: Optional[str] = None,
         verbose: bool = True,
         dataset='factscore'
     ):
-        assert model_name == 'claude-2.0', (
-            'TODO: support other fact checkers. '
-            'Currently our prompt construction uses Claude format (human / assistant).')
+        # NOTE: Claude is not used at all!!!
+        # assert model_name == 'claude-2.0', (
+        #     'TODO: support other fact checkers. '
+        #     'Currently our prompt construction uses Claude format (human / assistant).')
 
         if knowledge_source is None:
             # use the default knowledge source
@@ -311,7 +312,7 @@ class FactScorer(object):
                 if 'factscore' in dataset:
                     definition = "Human: Answer the question about {} based on the given context.\n\n".format(topic)
                 elif dataset == 'nq':
-                    definition = "Human: You will be provided some context and an input claim. Based on the given context, evaluate the input claim is subjective or objective. If objective, True or False. \n\n"
+                    definition = "Human: You will be provided some context and an input claim. Based on the given context, evaluate the input claim is True or False. \n\n"
                 context = ""
                 for psg_idx, psg in enumerate(reversed(passages)):
                     context += "Title: {}\nText: {}\n\n".format(
@@ -319,7 +320,7 @@ class FactScorer(object):
                 definition += context.strip()
                 if not definition[-1] in string.punctuation:
                     definition += "."
-                prompt = "\n\n{}\n\nInput: {}.\nIs the input Subjective or Objective? If objective, True or False? Format your answer as one word as 'ANSWER: <Subjectve/True/False>'\nOutput:".format(definition.strip(), atom.strip())
+                prompt = "\n\n{}\n\nInput: {}.\nIs the input True or False? Format your answer as one word as 'ANSWER: <True/False>'\nOutput:".format(definition.strip(), atom.strip())
 
                 # Flattened list of prompts
                 prompts.append(prompt)
@@ -348,7 +349,7 @@ class FactScorer(object):
 class General_Wiki_Eval():
     def __init__(self, error_file) -> None:
         wikipedia.set_lang('en')
-        self.eval_model = OpenAIModel("gpt-4-1106-preview", None)
+        self.eval_model = OpenAIModel("gpt-4o", None)
         self.error_file = error_file
 
     def general_wiki_page_prompt_construct(self, entity_name, atomic_facts):

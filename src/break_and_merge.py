@@ -1,8 +1,6 @@
 import numpy as np
-import src.utils as utils
 import json
 from pathlib import Path
-from .factscore_utils import FactScorer, General_Wiki_Eval
 import pandas as pd
 import numpy as np
 from sklearn import metrics
@@ -10,6 +8,9 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import os
 from tqdm import tqdm
+
+import src.utils as utils
+from src.factscore_utils import FactScorer, General_Wiki_Eval
 
 def convert_to_claim_list(breakdown_dicts):
     return [dict_['claim'] for dict_ in breakdown_dicts]
@@ -297,6 +298,8 @@ class Break_And_Merge:
             # Get all the breakdown lists for the generations
             breakdown_dicts_list = self.breakdown_processor.break_down_single(data, gen_id, self.cache_manager.cached_results)
             ml_breakdown = convert_to_claim_list(breakdown_dicts_list[0])
+            # Read from pre-generated claims 
+            
             print(f'Processing {gen_id}th generation')
             
             # Match the breakdowns into a union list of all the claims

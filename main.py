@@ -10,24 +10,23 @@ from src.uad import UncertaintyAwareDecoding
 from src.models import get_model
 import random
 
-os.environ["HF_DATASETS_CACHE"] = '/nlp/scr/jiangm/cache'
+# os.environ["HF_DATASETS_CACHE"] = '/'
 OUTPUT_DIR = 'experiments'
 DATA_DIR = 'data'
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--num_generations_per_prompt', type=int, default=10)
-parser.add_argument('--model', type=str, default='gpt-3.5-turbo')
+parser.add_argument('--num_generations_per_prompt', type=int, default=5)  # as consistent with long_hallu
+parser.add_argument('--model', type=str, default='llama-3.1-8b-instruct')
 parser.add_argument('--temperature', type=float, default=0.7)
-parser.add_argument('--data_size', type=int, default=50)
-parser.add_argument('--dataset', type=str, default='factscore_m')
-parser.add_argument('--breakdown', type=utils.str2bool, default=False)
+parser.add_argument('--data_size', type=int, default=30)
+parser.add_argument('--dataset', type=str, default='factscore')
+parser.add_argument('--breakdown', type=utils.str2bool, default=True)
 parser.add_argument('--num_samples_for_claims', type=int, default=4)
-parser.add_argument('--gpt_annotate', type=utils.str2bool, default=False)
+parser.add_argument('--gpt_annotate', type=utils.str2bool, default=True)
 parser.add_argument('--sc_samples', type=int, default=4)
-parser.add_argument('--safe_eval', type=utils.str2bool, default=False)
 parser.add_argument('--uad', type=utils.str2bool, default=False)
 parser.add_argument('--fs_eval', type=utils.str2bool, default=False)
-parser.add_argument('--seed', type=int, default=10)
+parser.add_argument('--seed', type=int, default=42)
 parser.add_argument('--suff', type=str, default='')
 
 args = parser.parse_args()
@@ -38,7 +37,7 @@ random.seed(seed_value)
 dataset = datasets.load_from_disk(f'{DATA_DIR}/{args.dataset}')
 
 indices = list(range(len(dataset)))
-random.Random(seed_value).shuffle(indices)
+# random.Random(seed_value).shuffle(indices)
 train_dataset = dataset[indices[:args.data_size]]
 questions = datasets.Dataset.from_dict(train_dataset)
 
@@ -62,6 +61,7 @@ def main():
     with torch.no_grad():
         g = Generation(args, dataset=questions, folder_name=folder_name, llm_model=llm_model)
         generation_result = g.generate()
+        sequences = None
         if args.breakdown:
             bm = Break_And_Merge(args=args, generations=generation_result, llm_model=llm_model, folder_name=folder_name, gpt_annotate=args.gpt_annotate)
             sequences = bm.break_down_match()
