@@ -45,7 +45,7 @@ class EdgeConstruction():
                     )
 
                 # Parse the response
-                if 'choices' in match_raw_result['return']:
+                if type(match_raw_result['return']) is not str and 'choices' in match_raw_result['return']:
                     choice = match_raw_result['return']["choices"][0]
                     response = choice['message']['content'].strip()
                 else:
@@ -111,7 +111,7 @@ class EdgeConstruction():
                 pointwise_dict[f'sc_based_vc'] = average_scores[claim_index] + pointwise_dict['verbalized_confidence_with_options'] * 0.1
                 
                 # A baseline uses neglectable extra computation than sc, using inline verbalized confidence to break ties in sc 
-                pointwise_dict[f'sc_based_ilvc'] = average_scores[claim_index] + pointwise_dict['inline_verbalized_confidence'] * 0.1 
+                pointwise_dict[f'sc_based_ilvc'] = average_scores[claim_index] + float(pointwise_dict['inline_verbalized_confidence']) * 0.1 
                 
         # Save the final results
         with open(self.collected_results_path, 'w') as outfile:

@@ -19,9 +19,10 @@ def load_huggingface_model_and_tokenizer(model_id, cache_dir):
         model_id, 
         device_map='auto', 
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2", 
+        # attn_implementation="flash_attention_2", 
         cache_dir=cache_dir
     )
+    # NOTE: snapshot_download might not be applicable if network bandwidth is limited
     # path = snapshot_download(
     #     repo_id=model_id,
     #     allow_patterns=['*.json', '*.model', '*.safetensors'],
@@ -51,6 +52,10 @@ def load_llama31_70b_model_and_tokenizer():
 def load_llama31_8b_model_and_tokenizer():
     cache_path = os.environ.get("HF_DATASETS_CACHE", '')
     return load_huggingface_model_and_tokenizer("meta-llama/Llama-3.1-8B-Instruct", cache_dir=cache_path)
+
+def load_gemma2_9b_model_and_tokenizer():
+    cache_path = os.environ.get("HF_DATASETS_CACHE", '')
+    return load_huggingface_model_and_tokenizer("google/gemma-2-9b-it", cache_dir=cache_path)
 
 def substitute_prompt_factscore(example, dataset):
     entity = example['entity']

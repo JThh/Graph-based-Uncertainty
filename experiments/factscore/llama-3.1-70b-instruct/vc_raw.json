@@ -765,6 +765,10 @@
     {
       "generation": "Little chance",
       "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Richie Dorman\nThe possible information is: Providing context or details about Richie Dorman may help find more information about them."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Richie Dorman\nThe possible information is: There is no specific information available about a person named Richie Dorman."
     }
   ],
   [
@@ -1529,6 +1533,682 @@
     {
       "generation": "Very good chance",
       "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Jan-Michael Gambill\nThe possible information is: Jan-Michael Gambill won the 2000 Tokyo Open."
+    }
+  ],
+  [
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz is a renowned Qari from Egypt."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz was born in 1943."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz was born in the village of Al-Hafiz, Sharqia Governorate, Egypt."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz is known for his beautiful and unique recitation style."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz's recitation style is characterized by his melodious voice and precise tajweed."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz is considered one of the most famous and influential Quran reciters in the world."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz began his Quranic studies at a young age."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz memorized the entire Quran by the time he was 12 years old."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz studied at Al-Azhar University in Cairo."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz earned a degree in Islamic studies from Al-Azhar University."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz has recited the Quran in many mosques and Islamic centers around the world."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz has recited the Quran at the Al-Azhar Mosque in Cairo."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz has recited the Quran at the Prophet's Mosque in Medina, Saudi Arabia."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz has participated in numerous international Quran recitation competitions."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: This claim is not mentioned in the \"Original Claim List."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz can refer to different individuals."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz is also spelled Muhammad al-Hafiz or Muhammad al-Hafidh."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz was an Egyptian footballer."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Egyptian footballer was born on October 15, 1945."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Egyptian footballer was born in Egypt."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Egyptian footballer played as a midfielder."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Egyptian footballer was a member of the Egyptian national team."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: The Egyptian national team won the 1963 African Cup of Nations."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: The Egyptian national team defeated Sudan 3-0 in the 1963 African Cup of Nations final."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: The 1963 African Cup of Nations final was held on November 24, 1963."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: The 1963 African Cup of Nations final was held at the Ohene Djan Stadium in Accra, Ghana."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz was a Tunisian politician."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Tunisian politician served as the Minister of Education from 1986 to 1987."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Tunisian politician served under President Zine El Abidine Ben Ali."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz the Tunisian politician implemented educational reforms."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Muhammad Al-Hafiz may not be a public figure."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: There may not be enough information available about Muhammad Al-Hafiz."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Facebook is a social media platform."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Twitter is a social media platform."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: LinkedIn is a social media platform."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Whitepages is an online directory."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Pipl is an online directory."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: Google Scholar is an academic database."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Muhammad Al-Hafiz\nThe possible information is: ResearchGate is an academic database."
+    }
+  ],
+  [
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, is a British aristocrat."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, is the wife of Henry Somerset, 12th Duke of Beaufort."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, was born Tracy Louise Ward."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, was born on December 22, 1958."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, is the daughter of Peter Ward."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, is the daughter of Claire Leonora Baring."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, married Henry Somerset, then Marquess of Worcester, on June 13, 1987."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: The wedding of Tracy Somerset, Duchess of Beaufort, and Henry Somerset, then Marquess of Worcester, took place at the Church of St. Andrew and St. Bartholomew in Ashleworth, Gloucestershire."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, has three children."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Henry John FitzRoy Somerset, Marquess of Worcester, is the son of Tracy Somerset, Duchess of Beaufort."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Henry John FitzRoy Somerset, Marquess of Worcester, was born on January 20, 1989."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Lady Isabella Elsa Somerset is the daughter of Tracy Somerset, Duchess of Beaufort."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Lady Isabella Elsa Somerset was born on March 3, 1992."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, was born in London, England."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset, Duchess of Beaufort, married Henry Somerset on June 13, 1986."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: The wedding of Tracy Somerset and Henry Somerset took place at the Church of St. Andrew and St. Teilo in Merthyr Cynog, Powys, Wales."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset became the Duchess of Beaufort in 2017."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Henry Somerset succeeded his father, David Somerset, 11th Duke of Beaufort, as the 12th Duke in 2017."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset supports the Royal Mencap Society."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Tracy Somerset, Duchess of Beaufort\nThe possible information is: Tracy Somerset was born on 7 December 1958."
+    }
+  ],
+  [
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour is an Australian professional rugby league footballer."
+    },
+    {
+      "generation": "Less than even",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour plays as a winger for the South Sydney Rabbitohs in the National Rugby League (NRL)."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour was born on June 15, 1990."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour was born in Goulburn, New South Wales, Australia."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour played junior rugby league for the Goulburn Stockmen."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour played junior rugby league for the Penrith Panthers' junior teams."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour made his professional debut for the Penrith Panthers in 2012."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour made his professional debut against the Canterbury-Bankstown Bulldogs on March 17, 2012."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour has represented Lebanon in international rugby league."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour made his international debut for Lebanon in 2017."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour has played for the NSW City Origin team."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour played for the NSW City Origin team in 2014."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour has played for the Penrith Panthers (2012-2017)."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour has played for the South Sydney Rabbitohs (2017-present)."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Josh Mansour has scored over 70 tries in his NRL career."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Josh Mansour\nThe possible information is: Not entailed by the \"Original Claim List.\""
+    }
+  ],
+  [
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo was a Filipino diplomat, statesman, soldier, journalist, and author."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo was the first Asian to serve as the President of the United Nations General Assembly."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo served as the President of the United Nations General Assembly from 1949 to 1950."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo was born on January 14, 1899."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo was born in Camiling, Tarlac, Philippines."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo's father was Gregorio Romulo."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Gregorio Romulo was a farmer."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo's mother was Maria Puyat."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Maria Puyat was a homemaker."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo was the youngest of five children."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo attended the Camiling Elementary School."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo attended the Tarlac High School."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo enrolled at the University of the Philippines in 1917."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo earned a Bachelor of Arts degree from the University of the Philippines in 1921."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo attended Columbia University in New York City."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Carlos P. Romulo earned a Master of Arts degree from Columbia University in 1924."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: This claim is not entailed by the \"Original Claim List.\""
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: This claim is not ent"
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Carlos P. Romulo\nThe possible information is: Not entailed by the \"Original Claim List.\""
+    }
+  ],
+  [
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: The speaker does not have access to a search engine."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: The speaker cannot provide information on Kubota Beisen."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Kubota Beisen is a topic the speaker was asked to provide information on."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Kubota Be"
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Kubota Beisen was a Japanese painter and art educator."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Kubota Beisen was known for his contributions to the development of Western-style"
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Kubota Beisen is a topic that may require a search engine to provide details about"
+    },
+    {
+      "generation": "Less than even",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Kubota Beisen\nThe possible information is: Although this claim is related to existing information, its exact wording is not explicitly mentioned in the original list. However, considering the context, it can be argued that this claim is not entirely new, as it is closely related to existing information. If we are looking for completely new information not implied by the original list, this list would be empty.)"
+    }
+  ],
+  [
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was a German-American communist."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was a high-ranking member of the Communist International (Comintern)."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was born on December 13, 1890."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was born in Germany."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert later immigrated to the United States."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert joined the Communist Party of the United States (CPUSA)."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert attended the 6th World Congress of the Comintern in 1927."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert met Joseph Stalin at the 6th World Congress of the Comintern."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was sent to Brazil in 1934."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert led the Brazilian Communist Party (PCB)."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert adopted the alias 'Harry Berger'."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert worked closely with Lu\u00eds Carlos Prestes."
+    },
+    {
+      "generation": "No chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was involved in a failed communist uprising in Natal in 1935."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was arrested by the Brazilian authorities in 1935."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was tortured by the Brazilian authorities."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was accused of being a foreign agent and a threat to national security."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was released from prison in 1936."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Arthur Ewert was a high-ranking member of the Communist International"
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Not entailed by the \"Original Claim List\"."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Partially entailed by the \"Original Claim List\" (claim 7), but adds the year '1928' and location '"
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Arthur Ewert\nThe possible information is: Fully entailed by the \"Original Claim List\" (claim 14), but adds the detail of the city."
+    }
+  ],
+  [
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris is a Canadian curler."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris was born on December 16, 1978."
+    },
+    {
+      "generation": "Less than even",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris was born in Winnipeg, Manitoba."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris is a two-time Olympic gold medalist."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris is a two-time World Curling Champion."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris has played for several teams throughout his career."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris' most notable partnerships have been with Kevin Martin and Kaitlyn Lawes."
+    },
+    {
+      "generation": "Less than even",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won two Olympic gold medals with Kevin Martin."
+    },
+    {
+      "generation": "Less than even",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won two World Curling Championships with Kevin Martin."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won four Brier championships with Kevin Martin."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won four Canadian Curling Trials with Kevin Martin."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won the 2018 Winter Olympics mixed doubles curling event with Kaitlyn Lawes."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris defeated Switzerland's Jenny Perret and Martin Rios 10-3 in the 2018 Winter Olympics mixed doubles curling event final."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris has had success in the Tim Hortons Brier."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris has had success in the Pinty's All-Star Curling Skins Game."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris has had success in the Elite 10."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris has been named the Brier MVP twice."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris began curling at a young age."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: John Morris (curler)\nThe possible information is: John Morris won an Olympic gold"
+    }
+  ],
+  [
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter is an American singer, songwriter, and record producer."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter was born on February 9, 1998."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter was born in New York City, USA."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's music style is a fusion of pop, R&B, and electronic dance music."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter released his debut single \"You\" in 2013."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has millions of followers on YouTube and Instagram."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter released his debut EP, \"Hunter,\" in 2015."
+    },
+    {
+      "generation": "Almost certain",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's debut EP included the singles \"4Ever\" and \"Just\"."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's debut EP was well-received by critics."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has collaborated with Pitbull."
+    },
+    {
+      "generation": "Fairly possible",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has collaborated with Jason Derulo."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has collaborated with Farruko."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter released the single \"Duele\" in 2017."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's single \"Duele\" featured Farruko."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's single \"Duele\" reached the top 10 on the US Billboard Hot Latin Songs chart."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter performed at the 2017 Latin American Music Awards."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter performed at the 2018 iHeartRadio Music Festival."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has toured with Enrique Iglesias."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter has toured with Pitbull."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter was born on February 1, 1998."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter's music style combines elements of pop, rock, R&B,"
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter was born on April 19, 1998."
+    },
+    {
+      "generation": "Very good chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Matt Hunter (singer)\nThe possible information is: Matt Hunter started his music career by posting videos on social media platforms."
     }
   ]
 ]

@@ -154,7 +154,6 @@ class MatchProcessor:
             lst_tb_merged = convert_to_claim_list(dicts_list)
             point_list = convert_to_claim_list(total_dicts_list)
             
-            print(gen_id, j, len(cached_results['match']))
             match_prompt = self.match_prompt.format(
                     new_claim_list=self.invert_fact_list(lst_tb_merged),
                     original_claim_list=self.invert_fact_list(point_list)
@@ -450,7 +449,7 @@ class Break_And_Merge:
         collect_keys = [key for key in df['pointwise_dict'][0][0].keys() if key not in ["claim", "correctness", "gpt-score", "gpt_annotation_result"]]
 
         for key in collect_keys:
-            dict_collection[key] = utils.collect_all_values(df, key)
+            dict_collection[key] = utils.collect_all_values(df, key).astype(np.float32)
             index = np.intersect1d(index, np.where((dict_collection[key] != -1) & (dict_collection[key] != np.inf) & (~np.isnan(dict_collection[key])))[0].astype(int))
             
         for key in dict_collection:
