@@ -123,10 +123,10 @@ class EdgeConstruction():
         prompt = f"""Context: {generation}
             Claim: {claim}
             Is the claim supported by the context above?
-            Answer Supported or Not Supported:
+            Answer Yes or No:
             """
 
-        model_response = self.llm_model.generate_given_prompt(prompt)
+        model_response = self.llm_model.generate_given_prompt([{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': prompt}])
         model_response = model_response['generation']
 
         return {'return': model_response, 'prompt': prompt}

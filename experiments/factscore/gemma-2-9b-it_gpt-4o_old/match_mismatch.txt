@@ -1,0 +1,1030 @@
+Checking for prompt mismatches
+
+Prompt mismatch for gen_id=0, breakdown=1
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Suthida Bajrasudhabimalalakshana is also known as Queen Suthida.
+3. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+4. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+5. Before her marriage to the King, Suthida worked as a flight attendant for Thai Airways International.
+6. Suthida is known for her professionalism and fluency in Thai, English, and French.
+7. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+8. Suthida and King Vajiralongkorn were married on May 1, 2019, at the Grand Palace in Bangkok.
+9. Suthida was officially crowned Queen Consort alongside King Vajiralongkorn on May 4, 2019.
+10. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+11. As Queen Consort, Suthida accompanies the King on official duties.
+12. Suthida represents Thailand at international events.
+13. Suthida participates in charitable activities.
+14. Suthida is known for her elegant style and adherence to traditional Thai dress.
+15. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+16. Suthida's ascension to the throne has been accompanied by some controversy.
+17. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+18. Some critics have raised concerns about Suthida's influence within the royal family.
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=2
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is better known as Queen Suthida
+2. Queen Suthida is the current Queen of Thailand
+3. Suthida Bajrasudhabimalalakshana's full name is Suthida Bajrasudhabimalalakshana
+4. Queen Suthida was born on June 3, 1978
+5. Queen Suthida was born in Bangkok, Thailand
+6. Queen Suthida graduated from Assumption Convent School
+7. Assumption Convent School is a private school for girls in Bangkok
+8. Queen Suthida holds a degree in Hospitality Management
+9. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+10. The Asian Institute of Technology is located in Pathum Thani, Thailand
+11. Queen Suthida worked as a flight attendant for Thai Airways International
+12. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+13. King Maha Vajiralongkorn is also known as Rama X
+14. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+15. Queen Suthida served as King Vajiralongkorn's military aide
+16. Queen Suthida married King Vajiralongkorn on May 1, 2019
+17. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the Grand Palace in Bangkok
+18. Queen Suthida was officially crowned Queen of Thailand on May 4, 2019
+19. Queen Suthida's coronation ceremony took place at Wat Phra Kaew
+20. Wat Phra Kaew houses the Emerald Buddha
+21. Queen Suthida actively participates in royal engagements
+22. Queen Suthida represents the Thai monarchy at domestic and international events
+23. Queen Suthida is involved in charitable work
+24. Queen Suthida's charitable work focuses on healthcare and education
+25. Queen Suthida has accompanied King Vajiralongkorn on state visits to India, Japan, and Cambodia
+26. Queen Suthida has opened hospitals, schools, and other public institutions in Thailand
+27. Queen Suthida has participated in ceremonies and festivals commemorating important Thai cultural events
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=3
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is better known as Queen Suthida
+2. Queen Suthida is the current consort of King Maha Vajiralongkorn of Thailand
+3. Suthida Tidjai is Queen Suthida's birth name
+4. Queen Suthida was born on June 3, 1978
+5. Queen Suthida was born in Nakhon Nayok Province, Thailand
+6. Queen Suthida's father was a businessman
+7. Queen Suthida attended the Thai Airways International Flight Attendant School
+8. Queen Suthida worked as a flight attendant for Thai Airways International before becoming Queen
+9. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+10. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+11. Queen Suthida played a significant role in the King's personal and official life
+12. Queen Suthida was officially elevated to the position of Queen in May 2019
+13. Queen Suthida's coronation took place at the Grand Palace in Bangkok, Thailand
+14. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+15. Srirasmi Suwadee was stripped of her title and exiled in 2014
+16. Queen Suthida has a prominent role in Thai society
+17. Queen Suthida represents the monarchy at official events and ceremonies
+18. Queen Suthida is actively involved in charitable work
+19. Queen Suthida is known for her formal and elegant style
+20. Queen Suthida is known for her devotion to the King
+21. Queen Suthida's public image is carefully managed by the Thai Royal Family
+22. Queen Suthida is generally seen as a supportive and dedicated wife to the King
+23. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+24. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=4
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is better known as Queen Suthida
+2. Queen Suthida is the current Queen of Thailand
+3. Suthida Bajrasudhabimalalakshana's full name is Suthida Bajrasudhabimalalakshana
+4. Suthida was born on June 3, 1978, in Bangkok, Thailand
+5. Before becoming Queen, Suthida was a flight attendant for Thai Airways International
+6. Suthida worked on routes to Europe and the Middle East as a flight attendant
+7. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok
+8. Suthida married King Maha Vajiralongkorn, also known as Rama X, on May 1, 2019
+9. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok
+10. Suthida was officially crowned Queen of Thailand on May 4, 2019
+11. Suthida's coronation took place at the Grand Palace
+12. Suthida holds the title 'Her Majesty the Queen'
+13. Suthida holds the title 'Her Royal Highness Princess Suthida'
+14. Suthida holds the title 'Her Royal Highness The Queen Consort'
+15. Queen Suthida regularly attends official ceremonies and royal events
+16. Queen Suthida is known for her elegant attire and stylish fashion sense
+17. Queen Suthida actively supports various charitable initiatives
+18. As Queen, Suthida represents the monarchy and upholds traditions
+19. Queen Suthida supports the King's endeavors
+20. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019
+21. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=5
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+60. Suthida worked on routes to Europe and the Middle East as a flight attendant.
+61. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok.
+62. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok.
+63. Suthida holds the title 'Her Royal Highness Princess Suthida'.
+64. Suthida holds the title 'Her Royal Highness The Queen Consort'.
+65. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019.
+66. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19.
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is better known as Queen Suthida of Thailand.
+2. Queen Suthida of Thailand is the current Queen consort of Thailand.
+3. Suthida was born on June 3, 1978, in Bangkok, Thailand.
+4. Before marrying the King, Suthida served as a flight attendant for Thai Airways International.
+5. Suthida later rose to the position of Major General in the Royal Thai Army.
+6. Suthida married King Maha Vajiralongkorn on May 1, 2019.
+7. The wedding ceremony took place at the Grand Palace in Bangkok.
+8. Suthida was officially crowned Queen on May 4, 2019.
+9. Suthida is the King's wife and acts as his consort.
+10. Queen Suthida participates in official royal ceremonies, visits, and events.
+11. Queen Suthida often represents the King at events when he is unavailable.
+12. Queen Suthida is a patron of various organizations and charities.
+13. Queen Suthida's patronages focus on areas like education, healthcare, and social welfare.
+14. Queen Suthida is known for her elegant and fashionable attire.
+15. The Royal Thai Family maintains active social media accounts.
+16. Queen Suthida's personal life has been subject to speculation and rumors.
+17. Some critics allege that Queen Suthida exerts undue influence over the King and Thai politics.
+18. Thailand has strict lese-majeste laws.
+19. Open criticism of the Thai monarchy is heavily penalized in Thailand.
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=6
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+60. Suthida worked on routes to Europe and the Middle East as a flight attendant.
+61. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok.
+62. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok.
+63. Suthida holds the title 'Her Royal Highness Princess Suthida'.
+64. Suthida holds the title 'Her Royal Highness The Queen Consort'.
+65. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019.
+66. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19.
+67. Suthida was born on June 3, 1978, in Bangkok, Thailand.
+68. Suthida later rose to the position of Major General in the Royal Thai Army.
+69. Queen Suthida's personal life has been subject to speculation and rumors.
+70. Some critics allege that Queen Suthida exerts undue influence over the King and Thai politics.
+71. Thailand has strict lese-majeste laws.
+72. Open criticism of the Thai monarchy is heavily penalized in Thailand.
+
+**New Claim List:**
+1. Suthida is the current Queen of Thailand
+2. Suthida's official title is Queen Suthida Bajrasudhabimalalakshana
+3. Suthida was born on December 3, 1978
+4. Suthida was born in Bangkok, Thailand
+5. Suthida's given name is Suthida Tidjai
+6. Suthida worked as a flight attendant for Thai Airways International
+7. Suthida has a Bachelor's degree in International Economics
+8. Suthida received her Bachelor's degree from Ramkhamhaeng University
+9. Suthida and King Maha Vajiralongkorn met in the late 2000s
+10. Suthida was appointed to the Royal Household Bureau in 2013
+11. Suthida and King Maha Vajiralongkorn were married in May 2019
+12. The wedding ceremony took place at the Grand Palace
+13. This was the King's fourth marriage
+14. Suthida's official coronation ceremony took place on May 4, 2019
+15. The coronation ceremony was held at Wat Phra Kaew temple
+16. As Queen, Suthida represents the monarchy at home and abroad
+17. Suthida is involved in charitable work
+18. Suthida promotes Thai culture and tourism
+19. Suthida's relationship with the King has been controversial
+20. The King has had past relationships with other women
+21. Some critics question the legitimacy of the marriage
+22. Some critics accuse the Queen of being politically ambitious
+23. Information about the Thai Royal Family is often closely guarded
+24. Official narratives often dominate information about the Thai Royal Family
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=7
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+60. Suthida worked on routes to Europe and the Middle East as a flight attendant.
+61. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok.
+62. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok.
+63. Suthida holds the title 'Her Royal Highness Princess Suthida'.
+64. Suthida holds the title 'Her Royal Highness The Queen Consort'.
+65. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019.
+66. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19.
+67. Suthida was born on June 3, 1978, in Bangkok, Thailand.
+68. Suthida later rose to the position of Major General in the Royal Thai Army.
+69. Queen Suthida's personal life has been subject to speculation and rumors.
+70. Some critics allege that Queen Suthida exerts undue influence over the King and Thai politics.
+71. Thailand has strict lese-majeste laws.
+72. Open criticism of the Thai monarchy is heavily penalized in Thailand.
+73. Suthida was born on December 3, 1978
+74. Suthida was born in Bangkok, Thailand
+75. Suthida has a Bachelor's degree in International Economics
+76. Suthida was appointed to the Royal Household Bureau in 2013
+77. This was the King's fourth marriage
+78. Suthida promotes Thai culture and tourism
+79. The King has had past relationships with other women
+80. Some critics accuse the Queen of being politically ambitious
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand
+2. Suthida Bajrasudhabimalalakshana is the consort to King Maha Vajiralongkorn (Rama X)
+3. Suthida Bajrasudhabimalalakshana was born on June 3, 1978, in Bangkok, Thailand
+4. Suthida Bajrasudhabimalalakshana graduated from Assumption College in Bangkok
+5. Before becoming queen, Suthida worked as a flight attendant for Thai Airways International
+6. Suthida worked in the Royal Thai Army and rose to the rank of Major General
+7. The exact details of Suthida's meeting with King Vajiralongkorn are not publicly known
+8. Suthida and King Vajiralongkorn's engagement was announced in December 2018
+9. Suthida and King Vajiralongkorn were married on May 1, 2019, at the Grand Palace in Bangkok
+10. Suthida holds the title of Queen Consort
+11. Queen Consort means she is the wife of the King
+12. Suthida accompanies the King on official state visits
+13. Suthida participates in royal ceremonies
+14. Suthida supports various charitable organizations
+15. Suthida is often seen in traditional Thai attire
+16. Suthida is known for her elegant style
+17. Suthida has been praised for her grace and poise
+18. There were allegations about Suthida's past relationships and her role in the Royal Thai Army before her marriage to the King
+19. The allegations about Suthida's past have not been proven
+20. Suthida's relationship with other members of the Royal Family is complex and not fully understood by the public
+21. Information about the Thai Royal Family is often limited due to lèse-majesté laws
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=8
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+60. Suthida worked on routes to Europe and the Middle East as a flight attendant.
+61. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok.
+62. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok.
+63. Suthida holds the title 'Her Royal Highness Princess Suthida'.
+64. Suthida holds the title 'Her Royal Highness The Queen Consort'.
+65. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019.
+66. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19.
+67. Suthida was born on June 3, 1978, in Bangkok, Thailand.
+68. Suthida later rose to the position of Major General in the Royal Thai Army.
+69. Queen Suthida's personal life has been subject to speculation and rumors.
+70. Some critics allege that Queen Suthida exerts undue influence over the King and Thai politics.
+71. Thailand has strict lese-majeste laws.
+72. Open criticism of the Thai monarchy is heavily penalized in Thailand.
+73. Suthida was born on December 3, 1978
+74. Suthida was born in Bangkok, Thailand
+75. Suthida has a Bachelor's degree in International Economics
+76. Suthida was appointed to the Royal Household Bureau in 2013
+77. This was the King's fourth marriage
+78. Suthida promotes Thai culture and tourism
+79. The King has had past relationships with other women
+80. Some critics accuse the Queen of being politically ambitious
+81. Suthida worked in the Royal Thai Army and rose to the rank of Major General
+82. The exact details of Suthida's meeting with King Vajiralongkorn are not publicly known
+83. Suthida and King Vajiralongkorn's engagement was announced in December 2018
+84. There were allegations about Suthida's past relationships and her role in the Royal Thai Army before her marriage to the King
+85. The allegations about Suthida's past have not been proven
+86. Suthida's relationship with other members of the Royal Family is complex and not fully understood by the public
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand
+2. Suthida Bajrasudhabimalalakshana is the consort of King Maha Vajiralongkorn (Rama X)
+3. Suthida Bajrasudhabimalalakshana was born on June 3, 1978
+4. Suthida Bajrasudhabimalalakshana was born in Bangkok, Thailand
+5. Suthida Bajrasudhabimalalakshana studied at Suan Dusit University
+6. Suthida Bajrasudhabimalalakshana earned a degree in Hospitality Management
+7. Suthida Bajrasudhabimalalakshana worked as a flight attendant for Thai Airways
+8. Suthida Bajrasudhabimalalakshana met King Vajiralongkorn in the 1990s
+9. Suthida Bajrasudhabimalalakshana became one of King Vajiralongkorn's royal consorts
+10. Suthida Bajrasudhabimalalakshana married King Vajiralongkorn on May 1, 2019
+11. Suthida Bajrasudhabimalalakshana's coronation ceremony took place on May 4, 2019
+12. Suthida Bajrasudhabimalalakshana's coronation ceremony was held at the Grand Palace in Bangkok
+13. Suthida Bajrasudhabimalalakshana plays a significant ceremonial role in Thai society
+14. Suthida Bajrasudhabimalalakshana attends state functions
+15. Suthida Bajrasudhabimalalakshana represents the King at official events
+16. Suthida Bajrasudhabimalalakshana supports various charitable causes
+17. Suthida Bajrasudhabimalalakshana is the patron of numerous organizations
+18. Suthida Bajrasudhabimalalakshana is believed to have considerable influence over King Vajiralongkorn
+19. Suthida Bajrasudhabimalalakshana is often seen as a modern and stylish Queen
+20. Suthida Bajrasudhabimalalakshana's personal life is highly guarded
+21. Suthida Bajrasudhabimalalakshana's rise to power has been met with some criticism
+22. Some people question Suthida Bajrasudhabimalalakshana's suitability for the role of Queen
+23. The Thai monarchy is a sensitive topic
+24. Suthida Bajrasudhabimalalakshana's position is intertwined with the country's complex political landscape
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+
+Prompt mismatch for gen_id=0, breakdown=9
+
+Cached prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity in the process:
+
+Task 1. **Verification Process:**  Your goal is to go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List." 
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that does not have an equivalent in the original list, format your output by starting each line with a dash ('-').
+
+**Original Claim List:**
+1. Suthida Bajrasudhabimalalakshana is the current Queen of Thailand.
+2. Queen Suthida's full name is Suthida Bajrasudhabimalalakshana.
+3. Queen Suthida was born on June 3, 1978, in Nakhon Nayok Province, Thailand.
+4. Queen Suthida graduated from Assumption College in Bangkok.
+5. Queen Suthida holds a Master's degree in Public Administration from King Mongkut's University of Technology Thonburi.
+6. Queen Suthida worked as a flight attendant for Thai Airways International.
+7. Queen Suthida met King Maha Vajiralongkorn (Rama X) while working as a flight attendant.
+8. Queen Suthida became the King's consort in 2014.
+9. Queen Suthida was officially crowned Queen on May 4, 2019.
+10. Queen Suthida's coronation ceremony took place at the Grand Palace in Bangkok.
+11. Queen Suthida performs royal duties alongside the King.
+12. Queen Suthida represents Thailand abroad.
+13. Queen Suthida supports charitable causes.
+14. Queen Suthida is known for her elegant style.
+15. Queen Suthida is known for her active involvement in royal projects.
+16. Queen Suthida is generally seen as a modern and approachable Queen.
+17. Queen Suthida has a strong social media presence.
+18. Some have criticized Queen Suthida for her rapid rise to power.
+19. Some believe Queen Suthida wields significant influence over the King.
+20. There have been allegations of power struggles within the Thai royal family.
+21. Queen Suthida accompanied King Maha Vajiralongkorn on a state visit to Japan in 2019.
+22. Queen Suthida met with Emperor Naruhito and Empress Masako during the 2019 Royal Tour of Japan.
+23. Queen Suthida opened an exhibition showcasing her personal collection of traditional Thai clothing and jewelry in 2020.
+24. The exhibition showcasing Queen Suthida's collection was held at the National Museum in Bangkok.
+25. Queen Suthida actively promotes the Royal Project.
+26. The Royal Project aims to improve the livelihoods of rural communities in Thailand.
+27. Queen Suthida's reign is relatively young.
+28. Suthida was born on June 3, 1978, in Nakhon Si Thammarat, Thailand.
+29. Suthida holds a bachelor's degree in political science and international relations from Ramkhamhaeng University.
+30. Suthida is known for her professionalism and fluency in Thai, English, and French.
+31. Suthida is believed to have met King Maha Vajiralongkorn (Rama X) in approximately the early 2000s.
+32. Suthida's coronation took place at Wat Phra Kaew, the Temple of the Emerald Buddha, in Bangkok.
+33. The Royal Thai Government maintains social media accounts that showcase Suthida's activities and engagements.
+34. Some critics have questioned the legitimacy of Suthida's marriage to the King.
+35. Some critics have raised concerns about Suthida's influence within the royal family.
+36. Queen Suthida was born in Bangkok, Thailand
+37. Queen Suthida graduated from Assumption Convent School
+38. Assumption Convent School is a private school for girls in Bangkok
+39. Queen Suthida holds a degree in Hospitality Management
+40. Queen Suthida received her Hospitality Management degree from the Asian Institute of Technology
+41. The Asian Institute of Technology is located in Pathum Thani, Thailand
+42. Queen Suthida had a long relationship with King Maha Vajiralongkorn before their marriage
+43. Queen Suthida was one of King Vajiralongkorn's most trusted aides
+44. Queen Suthida served as King Vajiralongkorn's military aide
+45. Queen Suthida married King Vajiralongkorn on May 1, 2019
+46. Queen Suthida and King Vajiralongkorn were married in a quiet ceremony at the
+47. Suthida Tidjai is Queen Suthida's birth name
+48. Queen Suthida's father was a businessman
+49. Queen Suthida attended the Thai Airways International Flight Attendant School
+50. Queen Suthida's relationship with King Maha Vajiralongkorn began in the late 1990s
+51. Queen Suthida was a close aide and personal assistant to King Maha Vajiralongkorn
+52. Queen Suthida played a significant role in the King's personal and official life
+53. Queen Suthida's coronation occurred weeks before the King's Diamond Jubilee
+54. Srirasmi Suwadee was stripped of her title and exiled in 2014
+55. Queen Suthida has a prominent role in Thai society
+56. Queen Suthida is known for her devotion to the King
+57. Queen Suthida's public image is carefully managed by the Thai Royal Family
+58. There have been media reports and public discussions about Queen Suthida's rise to power and her relationship with the King
+59. Information about the Thai Royal Family is often subject to strict protocols and limitations on public access
+60. Suthida worked on routes to Europe and the Middle East as a flight attendant.
+61. Suthida holds a Bachelor's degree in Public Administration from Assumption University in Bangkok.
+62. Suthida and King Maha Vajiralongkorn were married in a private ceremony at the Grand Palace in Bangkok.
+63. Suthida holds the title 'Her Royal Highness Princess Suthida'.
+64. Suthida holds the title 'Her Royal Highness The Queen Consort'.
+65. Queen Suthida accompanied King Vajiralongkorn to the 33rd ASEAN Summit in Bangkok in 2019.
+66. Queen Suthida donated medical supplies and equipment to the WHO in 2020 to aid in the fight against COVID-19.
+67. Suthida was born on June 3, 1978, in Bangkok, Thailand.
+68. Suthida later rose to the position of Major General in the Royal Thai Army.
+69. Queen Suthida's personal life has been subject to speculation and rumors.
+70. Some critics allege that Queen Suthida exerts undue influence over the King and Thai politics.
+71. Thailand has strict lese-majeste laws.
+72. Open criticism of the Thai monarchy is heavily penalized in Thailand.
+73. Suthida was born on December 3, 1978
+74. Suthida was born in Bangkok, Thailand
+75. Suthida has a Bachelor's degree in International Economics
+76. Suthida was appointed to the Royal Household Bureau in 2013
+77. This was the King's fourth marriage
+78. Suthida promotes Thai culture and tourism
+79. The King has had past relationships with other women
+80. Some critics accuse the Queen of being politically ambitious
+81. Suthida worked in the Royal Thai Army and rose to the rank of Major General
+82. The exact details of Suthida's meeting with King Vajiralongkorn are not publicly known
+83. Suthida and King Vajiralongkorn's engagement was announced in December 2018
+84. There were allegations about Suthida's past relationships and her role in the Royal Thai Army before her marriage to the King
+85. The allegations about Suthida's past have not been proven
+86. Suthida's relationship with other members of the Royal Family is complex and not fully understood by the public
+87. Suthida Bajrasudhabimalalakshana studied at Suan Dusit University
+88. Suthida Bajrasudhabimalalakshana earned a degree in Hospitality Management
+89. Suthida Bajrasudhabimalalakshana became one of King Vajiralongkorn's royal consorts
+90. Suthida Bajrasudhabimalalakshana is believed to have considerable influence over King Vajiralongkorn
+91. Suthida Bajrasudhabimalalakshana's personal life is highly guarded
+92. Some people question Suthida Bajrasudhabimalalakshana's suitability for the role of Queen
+93. The Thai monarchy is a sensitive topic
+94. Suthida Bajrasudhabimalalakshana's position is intertwined with the country's complex political landscape
+
+**New Claim List:**
+1. Suthida Bajrasudhabimalalaksha is often referred to as Queen Suthida
+2. Queen Suthida is the current Queen of Thailand
+3. Suthida was born on June 3, 1978, in Nakhon Ratchasima, Thailand
+4. Suthida worked as a flight attendant for Thai Airways International
+5. The exact details of Suthida's meeting with King Maha Vajiralongkorn are not publicly known
+6. Suthida and King Vajiralongkorn began a relationship
+7. Suthida was officially designated as a royal concubine in 2014
+8. Suthida was officially crowned Queen of Thailand on May 1, 2019
+9. Queen Suthida is often seen accompanying King Vajiralongkorn on official duties and state visits
+10. Queen Suthida is known for her elegant attire and dignified demeanor
+11. Queen Suthida has faced criticism from some quarters for her perceived influence in the royal court and her lavish lifestyle
+12. Suthida holds a degree in Political Science from Assumption University in Bangkok
+13. Queen Suthida is fluent in Thai and English
+14. Queen Suthida is a patron of several charities and organizations
+15. Information about the Thai Royal Family can be scarce and subject to strict regulations
+
+Begin with the Verification Process to assess each claim's relevance and uniqueness, followed by the Compilation of Non-Entailed Claims to clearly list any new insights that the "New Claim List" provides.
+
+New prompt:
+Given two lists titled "Original Claim List" and "New Claim List", your task is to integrate information from the "New Claim List" into the "Original Claim List". Please follow these detailed steps to ensure accuracy and clarity:
+
+Task 1. **Verification Process:**  Go through each statement in the "New Claim List" one by one, and determine if it is fully entailed or mentioned by any statement in the "Original Claim List."
+
+Task 2. **Compilation of Non-Entailed Claims:** Generate a list of statements from the "New Claim List" that are not already covered or implied by the "Original Claim List." For each new or unique claim that is not found in the original list, format your output by starting each line with '-'.
+
+**Original Claim List:**
+{original_claim_list}
+
+**New Claim List:**
+{new_claim_list}
+
+Begin with the Verification Process to assess each claim's uniqueness and relevance, then produce the list of claims that provide new insights.
+

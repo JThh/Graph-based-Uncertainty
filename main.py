@@ -15,7 +15,7 @@ OUTPUT_DIR = 'experiments'
 DATA_DIR = 'data'
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--num_generations_per_prompt', type=int, default=5)  # as consistent with long_hallu
+parser.add_argument('--num_generations_per_prompt', type=int, default=10)  # as consistent with long_hallu
 parser.add_argument('--model', type=str, default='llama-3.1-8b-instruct')
 parser.add_argument('--temperature', type=float, default=0.7)
 parser.add_argument('--data_size', type=int, default=30)
@@ -40,6 +40,7 @@ indices = list(range(len(dataset)))
 # random.Random(seed_value).shuffle(indices)
 train_dataset = dataset[indices[:args.data_size]]
 questions = datasets.Dataset.from_dict(train_dataset)
+print(questions["entity"])
 
 if 'factscore' in args.dataset:
     questions = questions.map(lambda x: utils.substitute_prompt_factscore(x, dataset=args.dataset))
@@ -56,6 +57,7 @@ os.makedirs(folder_name, exist_ok=True)
 
 # llm_model = None 
 llm_model = get_model(args.model, args)
+openai_model = get_model("gpt-4o-mini", args)
 
 def main():
     with torch.no_grad():
@@ -66,7 +68,7 @@ def main():
             bm = Break_And_Merge(args=args, generations=generation_result, llm_model=llm_model, folder_name=folder_name, gpt_annotate=args.gpt_annotate)
             sequences = bm.break_down_match()
         if args.sc_samples > 0:
-            edge_const = EdgeConstruction(args=args, source_data=sequences, folder_name=folder_name, llm_model=llm_model)
+            edge_const = EdgeConstruction(args=args, source_data=sequences, folder_name=folder_name, llm_model=openai_model)
             sequences = edge_const.evaluate_all_matches()
             if args.gpt_annotate:
                 bm.plot_auroc(sequences)

@@ -21,7 +21,8 @@ class Generation():
         else:
             most_likely_results = self.llm_model.generate_given_prompt(prompt)
             self.all_results['most_likely'] = self.all_results['most_likely'] + [most_likely_results]
-        
+
+        print(most_likely_results)
         if 'generation' in most_likely_results:
             most_likely_generation = most_likely_results['generation']
         else:
@@ -45,17 +46,17 @@ class Generation():
                 more_results['generation'] += filtered_generations[:self.args.num_generations_per_prompt - len(more_results['generation'])]
                 try_id += 1
                 print('Try:', try_id)
-                
+
             # Padding with empty strings, saved for response records, but not for further processing since it is not a real answer
             while len(more_results['generation']) < self.args.num_generations_per_prompt:
                 more_results['generation'].append('I apologize, I do not know.')
-                    
+
             self.all_results['more'] = self.all_results['more'] + [more_results]
         
         for j in range(self.args.num_generations_per_prompt):
-            if 'generation' in more_results:
+            if 'generation' in more_results and len(more_results['generation']) > j:
                 text_generation = more_results['generation'][j]
-            else:
+            elif len(more_results['choices']) > j:
                 text_generation = more_results["choices"][j]['message']['content'].strip()
 
             generated_texts.append(text_generation)
@@ -69,10 +70,11 @@ class Generation():
             more_generations = self._generate_single_more(data['prompt'], gen_id)
             with open(self.raw_results_path, 'w') as f:
                 json.dump(self.all_results, f, indent=2)
-            
+
             if self.ignore_generation(most_likely_generation) or self.ignore_generation(more_generations[-1]):
+                print("ignoring")
                 continue
-            
+
             sequence_dict = {
                 'prompt': data['prompt'],
                 'entity': data['question'],
@@ -99,6 +101,10 @@ class Generation():
         if "i'm not familiar" in text.lower():
             return True
         if 'unfortunately' in text.lower():
+            return True
+        if "i couldn't" in text.lower():
+            return True
+        if "i'm not aware" in text.lower():
             return True
         return False
 
